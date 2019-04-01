@@ -5,7 +5,11 @@ $(document).ready(function() {
     event.preventDefault();
 
 var words = str.split(' ');
+var combine = words.join();
+$("#answerArea").show();
+$('#display').text(words);
 // $('#display').text((words).split(" "));
 console.log(words);
+console.log(combine);
 });
 });
